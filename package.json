@@ -1,0 +1,26 @@
+{
+  "name": "htmloader-service",
+  "main": "./lib/htmloader-service",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "htmloader-service:test"
+  },
+  "providedServices" : {
+    "htmlloader-service": {
+      "description": "Loads html into javascript",
+      "verisons" : {
+          "0.1.0" : "loadHtmlServiceV1"
+        }
+    }
+  },
+  "repository": "https://github.com/atom/htmloader-service",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
