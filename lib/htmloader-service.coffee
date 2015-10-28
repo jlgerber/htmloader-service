@@ -18,7 +18,7 @@ module.exports = HtmloaderService =
     @subscriptions.dispose()
 
   serialize: ->
-
+    
   test: ->
     srv = @loadHtmlServiceV1()
     frag= srv.load(__dirname + '/../servicetest.html')
